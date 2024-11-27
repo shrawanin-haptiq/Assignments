@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.Conatiner {
+  width: 1170px;
+  height: 595px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 43px;
+}
+
+.Header {
+  width: 1170px;
+  height: 43px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between; /* Ensures space between the logo and nav links */
+  align-items: center; /* Vertically centers content */
+  padding: 0 15px;
+}
+
+li {
+  list-style: none; /* Removes bullet points from list items */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29.38px;
+  text-align: right;
+}
+
+.Logo {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.Nav-link {
+  color: black;
+  font-size: 18px;
+  font-weight: bolder;
+  transition: color 0.3s; /* Smooth transition for hover effects */
+  width: 71px;
+  height: 43px;
+}
+.Navbar-right {
+  display: flex; /* Places items in a single row */
+  justify-content: flex-end; /* Aligns items to the right */
+  align-items: center; /* Vertically centers the links */
+  gap: 20px; /* Adds spacing between the links */
+  margin-right: 20px; /* Optional: adjust spacing from the container edge */
+}
+
+.Nav-link:hover {
+  color: gray; /* Adds a hover effect */
+}
+
+.Heading {
+  display: flex;
+  margin-top: 158px;
+  width: 1170px;
+  gap: 110px;
+}
+
+.H1 {
+  /* border: 1px solid black; */
+
+  width: 1170px;
+}
+.H1-tag {
+  width: 506px;
+  height: 105px;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+
+  margin-left: 144px;
+  margin-bottom: 40px;
+}
+
+.Para {
+  width: 497px;
+  height: 66px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  margin-left: 148px;
+  margin-bottom: 47px;
+}
+
+.Resume-Btn {
+  width: 208px;
+  height: 47px;
+
+  border-radius: 2px 0px 0px 0px;
+  opacity: 0px;
+  background: rgba(255, 100, 100, 1);
+  margin-left: 148px;
+  border: none;
+  color: white;
+}
+.Img-div {
+  width: 243px;
+  margin-right: 149px;
+}
+.Profile-img {
+  width: 243px;
+  height: 243px;
+
+  border-radius: 50%;
+}
+
+.Main {
+  width: 1170px;
+  height: 396px;
+
+  background-color: rgba(237, 247, 250, 1);
+  margin: auto;
+  margin-top: 125px;
+  box-sizing: border-box;
+}
+
+.Post-Head {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 144px;
+}
+
+.post-p {
+  width: 129px;
+  height: 60px;
+
+  margin-top: 7px;
+
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+
+  padding-left: 3px;
+}
+.Read-more {
+  margin-top: 27px;
+  margin-right: 147px;
+}
+
+.Card {
+  display: flex;
+  margin-left: 144px;
+  gap: 20px;
+}
+
+.Card-1 {
+  width: 418px;
+  height: 295px;
+
+  border-radius: 4px 0px 0px 0px;
+  box-shadow: rgb(168, 158, 158);
+  background-color: white;
+}
+
+.Card-para {
+  width: 374px;
+  height: 85px;
+  top: 688px;
+  left: 171px;
+
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38.19px;
+  text-align: left;
+  margin-left: 23px;
+  margin-top: 21px;
+}
+
+.Date {
+  display: flex;
+  margin-left: 23px;
+  margin-top: 21px;
+}
+
+.Card-para-2 {
+  width: 368px;
+  height: 117px;
+  top: 835px;
+  left: 171px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  margin-left: 23px;
+  margin-top: 21px;
+}
+.Work {
+  width: 1170px;
+
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.Main-box {
+  display: flex;
+
+  gap: 20px;
+}
+
+.Featured-img {
+  width: 246px;
+  height: 180px;
+  border-radius: 6px 0px 0px 0px;
+  margin-left: 144px;
+}
+.Dash {
+  width: 400px;
+  height: 44px;
+  top: 1077px;
+  left: 410px;
+
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44.06px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.Year {
+  display: flex;
+  gap: 30px;
+}
+
+.Year-div {
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: rgba(20, 40, 80, 1);
+  color: white;
+}
+
+.Featured-title {
+  width: 152px;
+  height: 60px;
+  top: 1006px;
+  margin-left: 144px;
+
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.Featured-p {
+  width: 594px;
+  height: 93px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+}
+
+.Footer {
+  width: 1152px;
+  height: 182px;
+
+  margin: auto;
+  padding: 20px;
+  margin-top: 125px;
+  background-color: #f8f9fa;
+}
+.Foot-div {
+  text-align: center;
+}
+
+.Foot-div a {
+  margin-left: 35px;
+}
+
+.Footer-p {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+@media screen and (max-width: 767px) {
+    .Conatiner {
+      width: 100%; /* Make the container take the full width */
+      margin-top: 20px;
+    }
+    
+    .Header{
+     display: none;
+
+    }
+
+  
+
+
+}  
+  
