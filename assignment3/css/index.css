@@ -1,0 +1,624 @@
+body {
+  font-family: "Heebo", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1225px;
+  margin: 0px auto;
+  padding: 0px;
+  /* padding: 25px; */
+   margin: auto;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  position: relative;
+  padding: 32px 0px 32px 0px;
+}
+.NavbarRight {
+  display: flex;
+}
+.NavLogo {
+  color: white;
+}
+
+li,
+ul {
+  list-style: none;
+  padding: 8px 24px;
+  color: white;
+}
+.NavBarHomeButton {
+  padding: 8px 24px;
+  border-radius: 100px;
+  opacity: 1;
+  border: 1px solid white;
+  font-weight: 400;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+a:hover {
+  transform: scale(1.1);
+  color: gray;
+}
+
+----------------------------------------------------------------BANNER--------------------------------------------------------------------------------------------------------------------------
+  .BannerImageWrapper {
+  position: relative;
+}
+.BannerImageWrapper {
+  background-image: url("/images/Rectangle.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: -174px;
+  margin-bottom: 70px;
+}
+
+.BannerHeadingWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  text-align: center;
+  color: white;
+  margin-top: 64px;
+}
+
+.BannerHeadingWrapper h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 100.8px;
+  margin: 0px 0px 32px 0px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.BannerHeadingWrapper p {
+  font-size: 18px;
+
+  max-width: 640px;
+  margin: auto;
+  margin-bottom: 64px;
+  line-height: 22.4px;
+}
+
+.BannerHeadingWrapper button {
+  background: url("/images/play-circle.11\ 1.png") no-repeat center left 32px;
+  padding: 16px 32px 16px 72px;
+  background-color: #6c00ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 100px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+}
+
+.BannerHeadingWrapper button:hover {
+  background-color: gray;
+}
+
+
+
+/* ================================service==================== */
+
+.servicesWrapper {
+  width: 100%;
+   margin-bottom: 40px;
+}
+
+.serviceHeading h2 {
+  font-weight: 500;
+  line-height: 43.2px;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.servicesWrapper h6 {
+  font-size: 14px;
+  line-height: 16.8px;
+  text-align: center;
+  margin-bottom: 16px;
+  letter-spacing: 0.4rem;
+  color: #6c00ff;
+}
+
+.serviceBoxWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.serviceWrapperCardImg {
+  width: 96px;
+  height: 96px;
+  background-color: #6c00ff;
+  gap: 0px;
+  border-radius: 50%;
+
+  opacity: 0px;
+
+  margin: 32px auto;
+}
+
+.serviceWrapperCardImg img {
+  padding: 27px;
+}
+
+.serviceWrapperCardInfo {
+  text-align: center;
+}
+/* services */
+
+
+.serviceWrapperCardInfo p {
+  width: 298px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: center;
+  margin-bottom: 16px;
+  
+}
+.serviceWrapperCardInfo h4 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: center;
+}
+
+
+.serviceWrapperCard:hover{
+  transform: translateY(-20px); /* Moves card up */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Shadow increase */
+}
+/* ----------------------------------------------------------------------Feature------------------------------------------------------------------------------------ */
+.FeatureMain {
+  flex-direction: row-reverse;  /* Reverses the order of the items */
+  
+  margin-bottom: 128px;
+ 
+}
+
+.featureWrapper {
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+.featureWrapper.reverseRow {
+  flex-direction: row-reverse;  /* Reverses the order of the elements for the second row */
+}
+
+.featureWrapperLeftBox {
+   padding: 100px;
+  margin-bottom: 50px;
+}
+
+.featureWrapperRightBox {
+   display: flex;
+  flex-direction: column-reverse;
+   margin-bottom: 200px ;
+}
+
+.featureWrapperLeftBox p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.8px;
+  letter-spacing: 0.4em;
+  text-align: left;
+  margin-bottom: 16px;
+
+}
+
+.featureWrapperLeftBox h4 {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52.8px;
+  text-align: left;
+    margin-bottom: 32px;
+}
+
+.featureWrapperLeftBox h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.featureValidationCheck {
+  display: flex;
+   
+  align-items: center;
+}
+.featureValidationCheck img{
+   
+  padding: 20px; 
+}
+.feartureImg{
+  box-shadow: 32px 32px #6C00FF;
+ 
+  
+}
+ 
+.feartureImg img{
+  width: 405px;
+ 
+  display: block;
+  
+opacity: 0px;
+
+  
+}
+.feartureImgLeftSide{
+  box-shadow: -32px -32px #6C00FF;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------contact--------------------------------------------- */
+.contactFormWrapper{
+  background: rgba(238, 238, 238, 1)  ;
+
+  width: 100%;
+  padding-top: 20px
+   
+}
+  
+ 
+.contactFormHeading p{
+ 
+font-size: 14px;
+font-weight: 600;
+line-height: 16.8px;
+letter-spacing: 0.4em;
+text-align: center;
+ margin-top: 128px;
+ margin-bottom: 16px;
+ color: rgba(108, 0, 255, 1);
+ 
+}
+
+.contactFormHeading h2{
+ font-size: 36px;
+font-weight: 500;
+line-height: 43.2px;
+text-align: center;
+
+margin-bottom: 55px;
+
+
+}
+
+
+
+
+ 
+
+ .contactFormIcon{
+ 
+  display: flex;
+  margin-bottom: 32px;
+  justify-content:center ;
+  gap: 32px;
+ }
+
+
+ .contactFormBackRound{
+  width: 69px;
+height: 69px;
+ 
+  background-color:rgb(233,222,247);
+border-radius: 100px  ;
+opacity: 0.1px;
+padding: 22px;
+
+ }
+.contactFormIcon p{
+  margin-bottom: 66px;
+  padding-left: 32px;
+ 
+}
+
+
+
+ .contactFormBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+.contactFormRightBox{
+  display: flex;
+   flex-direction: column;
+  gap: 16px; /* Adds spacing between inputs */
+}
+  
+ .contactFormRightBox input {
+  width: 373px;
+height: 64px;
+ 
+
+border-radius: 100px;
+opacity: 0px;
+border: none;
+background: rgba(255, 255, 255, 1);
+
+
+}
+
+.contactFormRightBox button {
+  width: 373px;
+height: 64px;
+ 
+border-radius: 100px ;
+opacity: 0px;
+background-color: rgba(108, 0, 255, 1);
+border: none;
+color: white;
+margin-bottom: 137px;
+}
+
+
+
+
+
+
+
+
+ 
+
+.contactFormRightBox textarea {
+  width: 373px;
+height: 128px;
+ border-radius: 32px;
+
+  min-height: 120px; /* Optional: Set a minimum height */
+  max-height: 300px; /* Optional: Set a maximum height */
+  border: none;
+}
+
+
+
+input::placeholder ,textarea   {
+  color: #888; /* Set the placeholder text color */
+  font-size: 20px; /* Adjust font size for the placeholder text */
+   opacity: 1; /* Set the opacity to make the placeholder fully visible */
+ padding-left: 20px ;
+}
+.contactPara{
+  margin-left: -100px;
+}
+
+/* ------------------------------------Footer------------------------------------------------------------------------------------ */
+
+
+
+.FooterWrapper{
+  width: 100%;
+  
+  justify-items: center;
+   
+ 
+   margin-bottom: 100px;
+  
+}
+
+.footerLinks ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.FooterWrapper img{
+  padding-top: 170px;
+   
+}
+.footerLinks li{
+padding: 8px 24px 8px 24px;
+margin-bottom: 16px;
+color: black;
+}
+ .footerLinks p{
+   
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: black;
+  
+ }
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .Conatiner {
+    width: 100%;
+ 
+    padding: 0px;
+   
+  }
+  .NavBar {
+    width: 100%;
+    flex-direction: column;
+     
+  }
+
+  .BannerImageWrapper {
+    width: 100%;
+  }
+
+  .BannerHeadingWrapper h1 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .serviceBoxWrapper{
+   display: flex;
+    flex-direction: column;
+  }
+  .BannerHeadingWrapper p{ 
+    justify-content: center;
+  }
+
+
+
+
+
+.navLink{
+  width: 100%;
+}
+
+
+.NavBarHomeButton{
+  display: none;
+}
+
+
+/* ===================================service================== */
+
+ .serviceWrapperCardInfoPara{
+margin: auto;
+}
+ 
+/* ====================================Feature====================== */
+
+.FeatureMain {
+  flex-direction: column;  /* Reverses the order of the items */
+  
+ 
+}
+
+.featureWrapper {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.FeatureMain {
+  flex-direction: row-reverse;  /* Reverses the order of the items */
+  
+  
+ 
+}
+
+ 
+
+.featureWrapper.reverseRow {
+  flex-direction: column-reverse;  /* Reverses the order of the elements for the second row */
+}
+
+ 
+.featureWrapperRightBox {
+   display: flex;
+  flex-direction: column ;
+   
+}
+
+
+
+.feartureImg img{
+  width: 100%;
+
+  
+}
+.feartureImg{
+  
+}
+ 
+/* ===========================================contact==================== */
+
+.contactFormWrapper{
+  width: 100%;
+   
+}
+
+
+
+
+.contactFormBox{
+  display: flex;
+  flex-direction: column  ;
+  justify-content: space-around;
+ }
+
+
+
+.contactFormRightBox button{
+  width: 100%;
+}
+
+
+.contactFormRightBox input{
+  width: 100%;
+}
+
+.contactFormRightBox textarea{
+  width: 100%;
+}
+
+
+
+
+  /* =============================foorter==================== */
+
+  .FooterWrapper{
+    width: 100%;
+    
+    justify-items: center;
+     
+   
+     
+    
+  }
+  
+  .footerLinks ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
