@@ -1,0 +1,587 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+ }
+
+ .navbtn{
+  
+    
+  width: Hug (214px)px;
+height: Hug (52px)px;
+left: 86px;
+padding: 15px 25px 15px 25px;
+gap: 15px;
+border-radius: 5px ;
+opacity: 0px;
+color: aliceblue;
+border: none;
+  background-color: rgba(35, 166, 240, 1);
+ }
+
+ .backRoundImg{
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: -70px;
+  
+ }
+
+ .nav-link{
+  color: white;
+ }
+
+ .navbar-brand{
+  color: white;
+  margin-right: 85px;
+ }
+.navBarBrand{
+  
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+ .homewrapperHeading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ height: 100vh;
+ }
+
+
+ .homewrapperHeading h1{
+   color: white;
+font-family: Montserrat;
+font-size: 58px;
+font-weight: 800;
+line-height: 80px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 35px;
+
+ }
+
+ .homewrapperHeading p{
+  color: white;
+  
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 35px;
+  
+}
+
+.homeWrapperBtn{
+  
+padding: 15px 36px 15px 36px;
+gap: 10px;
+border-radius: 37px;
+opacity: 0px;
+background-color: rgba(35, 166, 240, 1);
+}
+
+.homeWrapperBtnLearnMore{
+ 
+padding: 15px 36px 15px 36px;
+ 
+border-radius: 37px ;
+ margin-left: 10px;
+color: white;
+}
+
+.cardWrapperSection{
+  background-color: rgba(37, 43, 66, 1);
+  
+}
+.cardWrapper{
+   margin: auto;
+  padding: 30px;
+  
+}
+
+.cardBody{
+  
+  background-color: rgba(37, 43, 66, 1);
+  color: white;
+   text-align: center;
+   margin-top: 96px;
+   margin-bottom: 96px;
+}
+
+
+
+
+
+
+
+.cardImgdiv{
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////industry========================================================================= */
+
+
+
+.industryDivWrapperSection{
+background-color: rgba(142, 194, 242, 1);
+}
+
+.industryHeadingDiv{
+  text-align: center;
+  
+}
+ .industryHeadingDiv h2{
+ 
+ 
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  
+  margin-bottom: 10px;
+  padding: 30px;
+ }
+
+ .industryHeadingDiv p{
+  
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+ 
+  margin-bottom: 80px
+  
+ }
+
+ .industryCardsHeadings h3{
+ 
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+ 
+
+ }
+
+ .industryCardsHeadings p{
+  
+  
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+ 
+
+ }
+ 
+ .StarLi{
+  list-style: none;
+  text-align: center;
+  
+  align-items: start;
+ 
+  gap: 10px;
+  margin-bottom: 16px;
+ }
+ .industryCard{
+  align-items: left;
+ 
+  margin-bottom: 112px;
+  width:  450px;
+ 
+ 
+  padding: 10px 10px ;
+gap: 15px;
+opacity: 0px;
+
+ }
+
+ .industryCards{
+  justify-content: space-around;
+ 
+ }
+
+
+
+ /* ////////////////////////////////////////////////////////////////////////////pricing/////////////////////////////////// */
+
+ .pricingSection{
+  background-color: rgba(37, 43, 66, 1);
+  display: flex;
+  padding: 20px;
+ }
+
+ .pricingDivHeading{
+   text-align: center;
+    
+ }
+
+ .pricingDivHeading h2{
+   
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+ 
+color: white;
+  margin-top: 112px;
+  margin-bottom: 10px;
+ }
+
+ .pricingDivHeading p{
+  
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+ 
+color: white;
+margin-bottom: 80px;
+ }
+.pricingCardDiv{
+   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  
+}
+ .tryForIt{
+  background: rgba(35, 166, 240, 1);
+
+padding: 15px 40px 15px 40px;
+gap: 10px;
+border-radius: 5px;
+opacity: 0px;
+margin-bottom: 35px;
+ }
+
+.RightTickLi{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-align: center;
+  
+  align-items: start;
+ 
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.priceCardHeading h3{ 
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+   
+  margin-top: 50px;
+  margin-bottom: 45px;
+}
+
+.priceCardHeading h5{ 
+   
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+   
+  
+
+}
+
+.pricingImg img{
+  margin-bottom: 35px;
+}
+
+.priceCardHeading{
+  width: Hug (327px)px;
+height: Hug (689px)px;
+top: 26px;
+left: 0.5px;
+padding: 50px 40px 50px 40px;
+gap: 35px;
+border-radius: 10px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+
+/* //////////////////////////////////////////////////contactus///////////////////////////////////////////////////////////////// */
+
+.contactUsSection{
+  background-image: url('../images/contact.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  
+  display: flex;
+}
+
+.contactUsHeading{
+  margin-bottom: 40px;
+}
+
+ .contactUswrapper{
+  
+  margin-top: 90px;
+ }
+
+ .contactUswrapper button{
+ 
+padding: 15px 40px 15px 40px;
+gap: 10px;
+border-radius: 5px;
+opacity: 0px;
+background: rgba(35, 166, 240, 1);
+
+
+ }
+
+ input{
+  margin-bottom: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  
+ .contactusWrapperDiv{
+  display: flex;
+  justify-content: space-between;
+margin-top: 40px;
+margin-bottom: 40px;
+ }
+ .contactusWrapperDiv button{
+ 
+padding: 15px 40px 15px 40px;
+gap: 10px;
+border-radius: 5px ;
+opacity: 0px;
+background: rgba(35, 166, 240, 1);
+
+ }
+  
+
+
+/* /////////////////////////////////FOOTER////////////////////////////////////// */
+
+.footLink{
+  display: flex;
+  flex-direction: column;
+}
+.footerSection{
+  background-color: rgba(37, 43, 66, 1);
+}
+.footerMainSection{
+  display: flex;
+}
+.firstSectionlinkHeader{
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+color: white;
+margin-bottom: 20px;
+}
+.footLink a{
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+color: white;
+margin-bottom: 10px;
+}
+.footContact{
+  display: flex;
+}
+.footContact p{
+  color: aliceblue;
+}
+.footerMainSection{
+  display: flex;
+  gap:82px;
+}
+.footer{
+  margin-top:50px ;
+  margin-bottom: 50px;
+}
+.footerWrapper{
+  display: flex;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.mediaLogo{
+  display: flex;
+  gap:20px;
+}
+
+
+
+
+
+
+
+
+ @media (max-width: 767px) {
+
+ 
+.NavBarSection{
+  background: rgba(37, 43, 66, 1);
+
+}
+  /* .backRoundImg{
+ 
+    margin-top: -300px;
+    
+   } */
+   
+.nav-item{
+  text-align: center;
+}
+.navBtn{
+  display: none ;
+}
+
+.homewrapperHeading{
+  text-align: center;
+}
+
+/* /////////////////////////////////////////////industry///////////////////////////////// */
+
+.industryCards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: Fixed (325px)px;
+   
+  
+ 
+}
+
+.homebtn{
+  display: flex;
+
+  flex-direction: column;
+  width: Hug (185px)px;
+height: Hug (42px)px;
+padding: 10px 36px 10px 36px;
+gap: 10px;
+border-radius: 37px ;
+opacity: 0px;
+
+}
+ 
+/* ////////////////////////////////////////card//////////////////////////////////////////////////////////////// */
+.cardWrapper
+{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+  /* ///////////////////pricing//////////////////////// */
+  .pricingCardDiv{
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   
+   
+ }
+
+  
+ .card{
+  margin-bottom: 20px;
+ }
+
+ /* ///////////////////////////////////contact/////////////////////////// */
+
+
+ .contactUsFormInput{
+  width: 100%;
+ }
+
+ /* ////////////////////FOOTER//////////////////////////// */
+
+ .info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.footerHeading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerMainSection{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+ }
