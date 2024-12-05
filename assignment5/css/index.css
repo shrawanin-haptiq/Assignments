@@ -1,83 +1,79 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
 body {
   margin: 0px;
   padding: 0px;
- }
+}
 
- .navbtn{
-  
-    
-  width: Hug (214px)px;
-height: Hug (52px)px;
-left: 86px;
-padding: 15px 25px 15px 25px;
-gap: 15px;
-border-radius: 5px ;
-opacity: 0px;
-color: aliceblue;
-border: none;
+.navbtn {
+  width: Hug (214px) px;
+  height: Hug (52px) px;
+  left: 86px;
+  padding: 15px 25px 15px 25px;
+  gap: 15px;
+  border-radius: 5px;
+  opacity: 0px;
+  color: aliceblue;
+  border: none;
   background-color: rgba(35, 166, 240, 1);
- }
+}
 
- .backRoundImg{
+.backRoundImg {
   background-image: url("../images/background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
   margin-top: -70px;
-  
- }
+}
 
- .nav-link{
+.nav-link {
   color: white;
- }
+}
 
- .navbar-brand{
+.navbar-brand {
   color: white;
   margin-right: 85px;
- }
-.navBarBrand{
-  
-font-family: Montserrat;
-font-size: 24px;
-font-weight: 700;
-line-height: 32px;
-letter-spacing: 0.10000000149011612px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
 }
- .homewrapperHeading{
+
+.navBarBrand {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.homewrapperHeading {
   display: flex;
   flex-direction: column;
   justify-content: center;
- height: 100vh;
- }
+  height: 100vh;
+}
 
-
- .homewrapperHeading h1{
-   color: white;
-font-family: Montserrat;
-font-size: 58px;
-font-weight: 800;
-line-height: 80px;
-letter-spacing: 0.20000000298023224px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-margin-bottom: 35px;
-
- }
-
- .homewrapperHeading p{
+.homewrapperHeading h1 {
   color: white;
-  
+  font-family: Montserrat;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 35px;
+}
+
+.homewrapperHeading p {
+  color: white;
+
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 500;
@@ -87,243 +83,203 @@ margin-bottom: 35px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   margin-bottom: 35px;
-  
 }
 
-.homeWrapperBtn{
-  
-padding: 15px 36px 15px 36px;
-gap: 10px;
-border-radius: 37px;
-opacity: 0px;
-background-color: rgba(35, 166, 240, 1);
+.homeWrapperBtn {
+  padding: 15px 36px 15px 36px;
+  gap: 10px;
+  border-radius: 37px;
+  opacity: 0px;
+  background-color: rgba(35, 166, 240, 1);
 }
 
-.homeWrapperBtnLearnMore{
- 
-padding: 15px 36px 15px 36px;
- 
-border-radius: 37px ;
- margin-left: 10px;
-color: white;
+.homeWrapperBtnLearnMore {
+  padding: 15px 36px 15px 36px;
+
+  border-radius: 37px;
+  margin-left: 10px;
+  color: white;
 }
 
-.cardWrapperSection{
+.cardWrapperSection {
   background-color: rgba(37, 43, 66, 1);
-  
-}
-.cardWrapper{
-   margin: auto;
-  padding: 30px;
-  
+
+  display: flex;
+  padding: 96px;
 }
 
-.cardBody{
-  
+.cardWrapper {
+  margin: auto;
+  padding: 30px;
+  gap: 0px;
+}
+
+.cardBody {
   background-color: rgba(37, 43, 66, 1);
   color: white;
-   text-align: center;
-   margin-top: 96px;
-   margin-bottom: 96px;
+  text-align: center;
+  padding: 10px;
 }
 
-
-
-
-
-
-
-.cardImgdiv{
+.cardImgdiv {
   margin-bottom: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ////////////////////////////////////////////////////////////////////industry========================================================================= */
 
-
-
-.industryDivWrapperSection{
-background-color: rgba(142, 194, 242, 1);
+.industryDivWrapperSection {
+  background-color: rgba(142, 194, 242, 1);
 }
 
-.industryHeadingDiv{
+.industryHeadingDiv {
   text-align: center;
-  
 }
- .industryHeadingDiv h2{
- 
- 
+
+.industryHeadingDiv h2 {
   font-family: Montserrat;
   font-size: 40px;
   font-weight: 700;
   line-height: 57px;
   letter-spacing: 0.20000000298023224px;
-  
+
   margin-bottom: 10px;
   padding: 30px;
- }
+}
 
- .industryHeadingDiv p{
-  
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: 0.20000000298023224px;
-text-align: center;
- 
-  margin-bottom: 80px
-  
- }
+.industryHeadingDiv p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
 
- .industryCardsHeadings h3{
- 
-font-family: Montserrat;
-font-size: 24px;
-font-weight: 700;
-line-height: 32px;
-letter-spacing: 0.10000000149011612px;
-text-align: left;
- 
+  margin-bottom: 80px;
+}
 
- }
+.industryCardsHeadings h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
 
- .industryCardsHeadings p{
-  
-  
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0.20000000298023224px;
- 
+.industryCardsHeadings p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+}
 
- }
- 
- .StarLi{
+.StarLi {
   list-style: none;
   text-align: center;
-  
+
   align-items: start;
- 
+
   gap: 10px;
   margin-bottom: 16px;
- }
- .industryCard{
+}
+
+.industryCard {
   align-items: left;
- 
+
   margin-bottom: 112px;
-  width:  450px;
- 
- 
-  padding: 10px 10px ;
-gap: 15px;
-opacity: 0px;
+  width: 450px;
 
- }
+  padding: 10px 10px;
+  gap: 15px;
+  opacity: 0px;
+}
 
- .industryCards{
+.industryCards {
   justify-content: space-around;
- 
- }
+}
 
+/* ////////////////////////////////////////////////////////////////////////////pricing/////////////////////////////////// */
 
-
- /* ////////////////////////////////////////////////////////////////////////////pricing/////////////////////////////////// */
-
- .pricingSection{
+.pricingSection {
   background-color: rgba(37, 43, 66, 1);
-  display: flex;
-  padding: 20px;
- }
 
- .pricingDivHeading{
-   text-align: center;
-    
- }
-
- .pricingDivHeading h2{
-   
-font-family: Montserrat;
-font-size: 40px;
-font-weight: 700;
-line-height: 57px;
-letter-spacing: 0.20000000298023224px;
- 
-color: white;
-  margin-top: 112px;
-  margin-bottom: 10px;
- }
-
- .pricingDivHeading p{
-  
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: 0.20000000298023224px;
- 
-color: white;
-margin-bottom: 80px;
- }
-.pricingCardDiv{
-   text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 10px;
-  
+  padding: 0px;
 }
- .tryForIt{
-  background: rgba(35, 166, 240, 1);
 
-padding: 15px 40px 15px 40px;
-gap: 10px;
-border-radius: 5px;
-opacity: 0px;
-margin-bottom: 35px;
- }
-
-.RightTickLi{
-  display: flex;
-  flex-direction: row;
-  list-style: none;
+.pricingDivHeading {
   text-align: center;
-  
-  align-items: start;
- 
-  gap: 10px;
-  margin-bottom: 16px;
 }
 
-.priceCardHeading h3{ 
+.pricingDivHeading h2 {
   font-family: Montserrat;
   font-size: 40px;
   font-weight: 700;
   line-height: 57px;
   letter-spacing: 0.20000000298023224px;
-   
+
+  color: white;
+  margin-top: 112px;
+  margin-bottom: 10px;
+}
+
+.pricingDivHeading p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+
+  color: white;
+  margin-bottom: 80px;
+}
+
+.pricingCardsDiv {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 20px;
+  position: relative;
+}
+
+.pricingCardDiv {
+}
+
+.tryForIt {
+  background: rgba(35, 166, 240, 1);
+
+  padding: 15px 40px;
+  gap: 10px;
+  border-radius: 5px;
+  opacity: 0px;
+  margin-bottom: 35px;
+}
+
+.RightTickLi {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-align: center;
+
+  align-items: start;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.priceCardHeading h3 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+
   margin-top: 50px;
   margin-bottom: 45px;
 }
 
-.priceCardHeading h5{ 
-   
+.priceCardHeading h5 {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
@@ -332,259 +288,229 @@ margin-bottom: 35px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  
-   
-  
-
 }
 
-.pricingImg img{
+.pricingImg img {
   margin-bottom: 35px;
 }
 
-.priceCardHeading{
-  width: Hug (327px)px;
-height: Hug (689px)px;
-top: 26px;
-left: 0.5px;
-padding: 50px 40px 50px 40px;
-gap: 35px;
-border-radius: 10px 0px 0px 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
+.priceCardHeading {
+  background-color: #fff;
 
+  /* top: 26px;
+left: 0.5px; */
+  padding: 50px 40px 50px 40px;
+  /* gap: 35px; */
+  border-radius: 10px;
+  border: 1px 0px 0px 0px;
+  /* opacity: 0px; */
 }
-
 
 /* //////////////////////////////////////////////////contactus///////////////////////////////////////////////////////////////// */
 
-.contactUsSection{
-  background-image: url('../images/contact.jpg');
+.contactUsSection {
+  background-image: url("../images/contact.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 70vh;
-  
+  height: 60vh;
+
   display: flex;
 }
 
-.contactUsHeading{
+.contactUsHeading {
   margin-bottom: 40px;
 }
 
- .contactUswrapper{
-  
+.contactUswrapper {
   margin-top: 90px;
- }
+}
 
- .contactUswrapper button{
- 
-padding: 15px 40px 15px 40px;
-gap: 10px;
-border-radius: 5px;
-opacity: 0px;
-background: rgba(35, 166, 240, 1);
+.contactUswrapper button {
+  padding: 15px 40px 15px 40px;
+  gap: 10px;
+  border-radius: 5px;
+  opacity: 0px;
+  background: rgba(35, 166, 240, 1);
+}
 
-
- }
-
- input{
+input {
   margin-bottom: 20px;
- }
+}
 
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-
-
-
-
-
-
-
-
-
-
- /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-  
- .contactusWrapperDiv{
+.contactusWrapperDiv {
   display: flex;
   justify-content: space-between;
-margin-top: 40px;
-margin-bottom: 40px;
- }
- .contactusWrapperDiv button{
- 
-padding: 15px 40px 15px 40px;
-gap: 10px;
-border-radius: 5px ;
-opacity: 0px;
-background: rgba(35, 166, 240, 1);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
- }
-  
-
+.contactusWrapperDiv button {
+  padding: 15px 40px 15px 40px;
+  gap: 10px;
+  border-radius: 5px;
+  opacity: 0px;
+  background: rgba(35, 166, 240, 1);
+}
 
 /* /////////////////////////////////FOOTER////////////////////////////////////// */
 
-.footLink{
+.footLink {
   display: flex;
   flex-direction: column;
 }
-.footerSection{
+
+.footerSection {
   background-color: rgba(37, 43, 66, 1);
 }
-.footerMainSection{
+
+.footerMainSection {
   display: flex;
 }
-.firstSectionlinkHeader{
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0.10000000149011612px;
-color: white;
-margin-bottom: 20px;
+
+.firstSectionlinkHeader {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  color: white;
+  margin-bottom: 20px;
 }
-.footLink a{
-font-size: 14px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0.20000000298023224px;
-color: white;
-margin-bottom: 10px;
+
+.footLink a {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  color: white;
+  margin-bottom: 10px;
 }
-.footContact{
+
+.footContact {
   display: flex;
 }
-.footContact p{
+
+.footContact p {
   color: aliceblue;
 }
-.footerMainSection{
+
+.footerMainSection {
   display: flex;
-  gap:82px;
+  gap: 82px;
 }
-.footer{
-  margin-top:50px ;
+
+.footer {
+  margin-top: 50px;
   margin-bottom: 50px;
 }
-.footerWrapper{
+
+.footerWrapper {
   display: flex;
 }
-.info{
+
+.info {
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.mediaLogo{
+
+.mediaLogo {
   display: flex;
-  gap:20px;
+  gap: 20px;
 }
-
-
 
 .card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px blue;
 }
 
-
-
-
- @media (max-width: 767px) {
-
- 
-.NavBarSection{
-  background: rgba(37, 43, 66, 1);
-
+.cardBody:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px blue;
 }
-  /* .backRoundImg{
- 
-    margin-top: -300px;
-    
-   } */
-   
-.nav-item{
-  text-align: center;
-}
-.navBtn{
-  display: none ;
+.pricingCardDiv:hover {
+  transform: scale(0.9);
+  box-shadow: 0 8px 15px blue;
 }
 
-.homewrapperHeading{
-  text-align: center;
+.navbar-toggler {
+  background-color: #fff;
+}
+.footLink a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px blue;
 }
 
-/* /////////////////////////////////////////////industry///////////////////////////////// */
+@media (max-width: 767px) {
+  .backRoundImg {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+  }
 
-.industryCards{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: Fixed (325px)px;
-   
-  
- 
-}
+  .NavBarSection {
+    background: rgba(37, 43, 66, 1);
+  }
 
-.homebtn{
-  display: flex;
+  .nav-item {
+    text-align: center;
+  }
 
-  flex-direction: column;
-  width: Hug (185px)px;
-height: Hug (42px)px;
-padding: 10px 36px 10px 36px;
-gap: 10px;
-border-radius: 37px ;
-opacity: 0px;
-
-}
- 
-/* ////////////////////////////////////////card//////////////////////////////////////////////////////////////// */
-.cardWrapper
-{
-  display: flex;
-  flex-direction: column;
-}
-
-
-
+  .homewrapperHeading {
+    text-align: center;
+  }
 
   /* ///////////////////pricing//////////////////////// */
-  .pricingCardDiv{
-   
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   
-   
- }
+  .pricingCardsDiv {
+    gap: 30px;
+  }
 
-  
- .card{
-  margin-bottom: 20px;
- }
+  .card {
+    margin-bottom: 20px;
+  }
 
- /* ///////////////////////////////////contact/////////////////////////// */
+  /* ///////////////////////////////////contact/////////////////////////// */
 
+  .contactUsFormInput {
+    width: 100%;
+  }
 
- .contactUsFormInput{
-  width: 100%;
- }
+  .contactUsSection {
+    background-image: url("../images/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+  }
 
- /* ////////////////////FOOTER//////////////////////////// */
+  /* ////////////////////FOOTER//////////////////////////// */
 
- .info{
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
+  .info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .footerHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerMainSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
 }
-.footerHeading{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+@media (max-width: 990px) {
+  .NavBarSection {
+    background: rgba(37, 43, 66, 1);
+  }
 }
-.footerMainSection{
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-}
- }
