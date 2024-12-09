@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <!-- Left: Logo and Brand Name -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="./images/Mask Group.png"
+            alt="Logo"
+            class="me-2"
+            style="height: 40px"
+          />
+          <span class="LogoFoodSide"
+            >food<span class="waGonSideLogo">waGon</span></span
+          >
+        </a>
+
+        <!-- Center: Address -->
+        <div class="d-none d-lg-block mx-auto text-center">
+          <p class="mb-0 small">
+            <span class="navAdd">Deliver to:</span>
+            <img src="./images/map-marker-alt.png" alt="" />123 Main Street,
+            City, Country
+            <span class="navAdd">Mohammadpur Bus Stand, Dhaka</span>
+          </p>
+        </div>
+
+        <!-- Right: Login and Search -->
+        <div class="d-flex align-items-center">
+          <a href="#" class="btn me-2 searchBtn">
+            <img src="./images/Search.png" alt="" class="px-2" />Login</a
+          >
+
+          <a href="#" class="btn me-2 LoginHomeBtn"
+            ><img src="./images/user.png" alt=" " class="px-2" />Login</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <section class="homeBannerSection">
+      <div class="container">
+        <div class="homeDiv">
+          <div class="homeSectionHeadingLeftSide">
+            <h1>Are you starving?</h1>
+            <p>Within a few clicks, find meals that are accessible near you</p>
+
+            <div class="homeBannertabs">
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation deliveryBtn">
+                  <button
+                    class="nav-link btn deliveryBtn"
+                    id="pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                  >
+                    <img class="px-2" src="./images/Icon.png" alt="" />Home
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link btn deliveryBtn"
+                    id="pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-profile"
+                    aria-selected="false"
+                  >
+                    <img class="px-2" src="./images/Icon1.png" alt="" />Profile
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                  tabindex="0"
+                >
+                  <div class="searchInputHome">
+                    
+                    <input
+                    
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Enter Your Address"
+                    />
+                  
+                    <button class="findFoodBtn">
+                      <img src="./images/foodSearch.png" alt="" />Find Food
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                  tabindex="0"
+                >
+                  ...
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="homeSectionHeadingRightSide">
+            <img src="./images/Image.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /////////////////////////////////////////////////////////////////discount cards/////////////////////////////////////////////////////// -->
+
+    <section>
+      <div class="container">
+        <div class="discountCardsWrapper row">
+          <div class="discountCard col-md-3">
+            <div class="discountCardImg">
+              <img src="./images/card.png" alt="" />
+            </div>
+            <div class="discountCardDiscribtion">
+              <h5>Greys Vage</h5>
+              <h6>6 Days Remaining</h6>
+            </div>
+          </div>
+
+          <div class="discountCard col-md-3">
+            <div class="discountCardImg">
+              <img src="./images/card.png" alt="" />
+            </div>
+            <div class="discountCardDiscribtion">
+              <h5>Greys Vage</h5>
+              <h6>6 Days Remaining</h6>
+            </div>
+          </div>
+
+          <div class="discountCard col-md-3">
+            <div class="discountCardImg">
+              <img src="./images/card.png" alt="" />
+            </div>
+            <div class="discountCardDiscribtion">
+              <h5>Greys Vage</h5>
+              <h6>6 Days Remaining</h6>
+            </div>
+          </div>
+
+          <div class="discountCard col-md-3">
+            <div class="discountCardImg">
+              <img src="./images/card.png" alt="" />
+            </div>
+            <div class="discountCardDiscribtion">
+              <h5>Greys Vage</h5>
+              <h6>6 Days Remaining</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+<!-- /////////////////////////////////////////////////////////////////////////secrch section /////////////////////////////////////////////////////////// -->
+    <section class="searchByFoodSection">
+        <div class="container">
+           <div class="searchByFood">
+              <div class="searchByFoodHeadingRow row align-items-center">
+                 <!-- Left: Search by Food Heading -->
+                 <div class="searchByFoodHeading col-md-6">
+                    <h4>Search by Food</h4>
+                 </div>
+     
+                 <!-- Right: View All and Arrows -->
+                 <div class="searchByFoodHeadingRight col-md-6 d-flex justify-content-end align-items-center">
+                    <p class="mb-0 me-3">View All</p>
+                    <div class="arrowDiv me-2" id="prevArrow">
+                       <img src="./images/left.png" alt="Left Arrow" />
+                    </div>
+                    <div class="arrowDiv" id="nextArrow">
+                       <img src="./images/right.png" alt="Right Arrow" />
+                    </div>
+                 </div>
+              </div>
+           </div>
+     
+           <div class="searchByFoodCardsWrapper slider row">
+              <div class="searchByFoodCard col-md-2">
+                 <div class="searchByFoodCardImg">
+                    <img src="./images/Food Photo.png" alt="" />
+                 </div>
+                 <div class="searchByFoodPara">Pizza</div>
+              </div>
+              <div class="searchByFoodCard col-md-2" >
+                 <div class="searchByFoodCardImg">
+                    <img src="./images/Food Photo.png" alt="" />
+                 </div>
+                 <div class="searchByFoodPara">Pizza</div>
+              </div>
+              <div class="searchByFoodCard col-md-2">
+                 <div class="searchByFoodCardImg">
+                    <img src="./images/Food Photo.png" alt="" />
+                 </div>
+                 <div class="searchByFoodPara">Pizza</div>
+              </div>
+              <div class="searchByFoodCard col-md-2">
+                 <div class="searchByFoodCardImg">
+                    <img src="./images/Food Photo.png" alt="" />
+                 </div>
+                 <div class="searchByFoodPara">Pizza</div>
+              </div>
+              <div class="searchByFoodCard col-md-2">
+                 <div class="searchByFoodCardImg">
+                    <img src="./images/Food Photo.png" alt="" />
+                 </div>
+                 <div class="searchByFoodPara">Pizza</div>
+              </div>
+
+              <div class="searchByFoodCard col-md-2">
+                <div class="searchByFoodCardImg">
+                   <img src="./images/Food Photo.png" alt="" />
+                </div>
+                <div class="searchByFoodPara">Pizza</div>
+             </div>
+
+             <div class="searchByFoodCard col-md-2">
+                <div class="searchByFoodCardImg">
+                   <img src="./images/Food Photo.png" alt="" />
+                </div>
+                <div class="searchByFoodPara">Pizza</div>
+             </div>
+              <div class="searchByFoodCard col-md-2">
+                 <div class="searchByFoodCardImg">
+                    <img src="./images/Food Photo.png" alt="" />
+                 </div>
+                 <div class="searchByFoodPara">Pizza</div>
+              </div>
+           </div>
+        </div>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- ////////////////////////////////////////////////////////////////////////////BestDeals cards/////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+     <section>
+        <div class="container">
+            <div class="bestDealsWrapper">
+                <div class="bestDeal row">
+                    <div class="bestDealDivLeft col-md-4">
+                        <div class="bestDealHeading">
+                            <h4>Best deals  <span class="spanBestDeals" >Crispy Sandwiches</span></h4> 
+                            <p>Enjoy the large size of sandwiches. Complete 
+                                perfect slice of sandwiches.</p> 
+                                <button> Proceed to order <img src="./images/CHEVRON-RIGHT.png" alt=""></button>
+                        </div>      
+                    </div>
+                    <div class="bestDealDivRight col-md-8">
+                         <img src="./images/Best.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="bestDeal bestDealReverseRow row">
+                    <div class="bestDealDivLeft col-md-4">
+                        <div class="bestDealHeading">
+                            <h4>Best deals  <span class="spanBestDeals" >Crispy Sandwiches</span></h4> 
+                            <p>Enjoy the large size of sandwiches. Complete 
+                                perfect slice of sandwiches.</p> 
+                                <button> Proceed to order <img src="./images/CHEVRON-RIGHT.png" alt=""></button>
+                        </div>      
+                    </div>
+                    <div class="bestDealDivRight col-md-8">
+                         <img src="./images/Best.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="bestDeal row">
+                    <div class="bestDealDivLeft col-md-4">
+                        <div class="bestDealHeading">
+                            <h4>Best deals  <span class="spanBestDeals" >Crispy Sandwiches</span></h4> 
+                            <p>Enjoy the large size of sandwiches. Complete 
+                                perfect slice of sandwiches.</p> 
+                                <button> Proceed to order <img src="./images/CHEVRON-RIGHT.png" alt=""></button>
+                        </div>      
+                    </div>
+                    <div class="bestDealDivRight col-md-8">
+                         <img src="./images/Best.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+
+
+
+     <section class="mobileAppInfo">
+        <div class="container">
+                    
+                        <div class="featuresWrapper row ">
+                            <div class="featureDiv  col-md-3">
+                                <img  src="./images/per.png" alt="">
+                                <h5 >Daily
+                                    Discounts</h5>
+                            </div>
+                            <div class="featureDiv  col-md-3">
+                                <img src="./images/per.png" alt="">
+                                <h5>Daily
+                                    Discounts</h5>
+                            </div>
+                            <div class="featureDiv  col-md-3">
+                                <img src="./images/per.png" alt="">
+                                <h5>Daily
+                                    Discounts</h5>
+                            </div>
+                        </div>
+    
+    
+                        <div class="phoneInfoWrapper row">
+                               <div class="phoneInfoLeftside col-md-6">
+                                  <img src="./images/phone.png" alt="">
+                               </div>
+                               <div class="phoneInfoSideside col-md-6">
+                                 <div class="AppInstallInfoDiv">
+                                    <h2>Install the app</h2>
+                                <p>It's never been easier to order food. Look for the finest discounts and you'll be lost in a world of delectable food.</p>
+                                 </div>
+
+                                 <div class="GooglePlayWrapper ">
+                                    <div class="GooglePlayDiv"><img src="./images/Subtract.png" alt="">Google Store</div>
+                                    <div class="GooglePlayDiv"><img src="./images/Subtract.png" alt="">Google App</div>
+
+                                  </div>
+                               </div>
+                        </div>
+                   
+        </div>
+     </section>
+
+
+ 
+    
+         
+    
+    
+    
+    
+
+         <section class="footerSection">
+          <div class="container">
+              <div class="footer">
+                <div class="sectionFooter">
+                  <div class="footerMainSection row">
+                    <div class="FooterPageLink col-md-2 col-sm-1">
+                      <h2 class="firstSectionlinkHeader">Company</h2>
+                      <div class="footLink">
+                        <a href="#">About Us</a>
+                        <a href="#">Team</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Blog</a>
+                      </div>
+                    </div>
+                    <div class="FooterPageLink col-md-2 col-sm-1">
+                      <h2 class="firstSectionlinkHeader">Contact</h2>
+                      <div class="footLink">
+                        <a href="#">Help & Support</a>
+                        <a href="#">Partner with us</a>
+                        <a href="#">Ride with us</a>
+                        <a href="#">API</a>
+                      </div>
+                    </div>
+                    <div class="FooterPageLink col-md-2 col-sm-1">
+                      <h2 class="firstSectionlinkHeader">Legal</h2>
+                      <div class="footLink">
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Refund & Cancellation</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookie Policy</a>
+                      </div>
+                    </div>
+                    <div class="FooterPageLink col-md-2 col-sm-1"></div>
+                    <div class="FooterPageLink col-md-4 col-sm-1">
+                      <h2 class="firstSectionlinkHeader"> FOLLOW US</h2>
+                      <div class="footLink">
+                        <div class="footContact">
+                           <img src="./images/1.png">
+                           <img src="./images/1.png">
+                           <img src="./images/1.png">
+                        </div>
+                        <div class="footparagraph">
+                            <p>Receive exclusive offers in your mailbox</p>
+                        </div>
+                        <div class="footContact">
+                          <input type="text" class="form-control form-control-sm"  placeholder="Email">
+                          <button class="btn btn-success subscribebtn">Subscribe</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+    
+    
+
+         <script src="/index.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

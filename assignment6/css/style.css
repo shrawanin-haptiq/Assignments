@@ -1,0 +1,543 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.LoginHomeBtn {
+  padding: 14px 24px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  color: linear-gradient(92.84deg, #ffb800 -47.72%, #ff8a00 136.81%);
+  box-shadow: gray;
+}
+
+.searchBtn {
+  padding: 14px 24px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  color: linear-gradient(92.84deg, #ffb800 -47.72%, #ff8a00 136.81%);
+  background-color: white;
+  box-shadow: rgb(42, 41, 41);
+}
+
+.LogoFoodSide {
+  color: rgba(241, 114, 40, 1);
+  font-family: Source Sans Pro;
+  font-size: 31.11px;
+  font-weight: 700;
+  line-height: 37.33px;
+  letter-spacing: -0.025em;
+}
+
+.waGonSideLogo {
+  color: rgba(255, 179, 14, 1);
+}
+.navAdd {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.2px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.homeBannerSection {
+  background-image: url("../images/Group\ 1\ 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 70px);
+}
+
+.homeDiv {
+  display: flex;
+
+  height: 100vh;
+  align-items: center;
+}
+.homeSectionHeadingRightSide {
+}
+
+.homeSectionHeadingLeftSide h1 {
+  font-family: Source Sans Pro;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 88px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+}
+
+.homeSectionHeadingLeftSide p {
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+}
+
+/* .homeSectionHeadingRightSide{
+        position: relative;
+        margin-top: 300px   ;
+    }
+
+    .homeSectionHeadingLeftSide{
+        position: relative;
+        margin-top: 300px   ;
+    }    */
+
+.homeSectionHeadingRightSide img {
+  margin-bottom: -300px;
+  margin-left: -100px;
+}
+
+.homeBannertabs {
+  width: 856px;
+  padding: 24px;
+  gap: 8px;
+
+  background-color: white;
+}
+
+.deliveryBtn {
+  padding: 10px 24px 10px 24px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  color: rgba(241, 114, 40, 1);
+  background: rgba(241, 114, 40, 0.1);
+}
+
+input {
+   
+  padding: 7px 300px 10px 40px;
+  gap: 12px;
+  border-radius: 8px;
+  opacity: 0px;
+  
+}
+
+.findFoodBtn {
+  padding: 21px 40px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: linear-gradient(95.71deg, #ff7a7a -39.64%, #f75900 135.31%);
+  border: none;
+  color: white;
+}
+
+.findFoodBtn img {
+  padding: 2px;
+}
+
+a:hover {
+  transform: translateY(1.0px);
+  box-shadow: 0 8px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* ///////////////////////////////////////////////////////////////////////discount////////////////////////////////////////////// */
+.discountCardsWrapper {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.discountCardImg {
+  box-shadow: #ffb800;
+}
+.discountCardImg img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.discountCardDiscribtion h5 {
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 14px;
+}
+
+.discountCardDiscribtion h6 {
+  padding: 8px 16px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: rgba(241, 114, 40, 0.2);
+  color: rgba(241, 114, 40, 1);
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////sider////////////////////////////////////////// */
+.searchByFoodSection{
+    margin-bottom: 80px;
+     
+}
+.searchByFood {
+  margin-bottom: 80px;
+}
+
+.searchByFoodHeading {
+  display: flex;
+}
+
+.arrowDiv {
+  padding: 10px 11px 10px 9px;
+  gap: 10px;
+  border-radius: 92px;
+  border: 1px;
+  opacity: 0px;
+  background: rgba(255, 179, 14, 1);
+}
+
+.searchByFoodHeadingRight {
+  display: flex;
+  margin-top: 80px;
+}
+
+.searchByFoodHeadingLeft {
+  display: flex;
+  margin-top: 80px;
+
+  font-family: Source Sans Pro;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 48.16px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.searchByFoodPara {
+  margin-bottom: 55px;
+
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+ 
+.searchByFoodSection {
+  background: rgba(254, 250, 241, 1);
+  text-align: center;
+}
+
+.searchByFoodCardImg img {
+  margin-bottom: 26px;
+  width: 200px;
+}
+
+.discountCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.arrowDiv {
+  cursor: pointer;
+}
+
+#prevArrow,
+#nextArrow {
+  z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////best .///////////////////////////////////////////////////////// */
+
+
+
+.bestDealsWrapper{
+   
+    padding: 10px;
+   
+}
+.bestDeal{
+  margin-bottom: 80px;
+     display: flex;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+
+.spanBestDeals{
+    color: rgba(241, 114, 40, 1);;
+}
+
+.bestDealHeading{
+     margin-top: 56px;
+}
+ 
+.bestDealHeading h4{
+     
+gap: 0px;
+opacity: 0px;
+
+font-family: Source Sans Pro;
+font-size: 43px;
+font-weight: 700;
+line-height: 48.16px;
+ 
+margin-top: 60px;
+margin-bottom: 19px;
+}
+.bestDealHeading p{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 25.2px;
+ margin-bottom: 64px;
+}
+.bestDealHeading button{
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+
+    padding: 21px 48px 21px 48px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: none;
+    color: white;
+}
+
+.bestDealHeading button img{
+    margin-left: 20px;
+ }
+.bestDealDivLeft{
+    padding: 54px;
+}
+.bestDealDivRight img{
+    width: 100%;
+    margin: 0px;
+}
+
+ .bestDealReverseRow{
+    display: flex;
+    flex-direction: row-reverse;
+ }
+
+
+
+
+ /* ////////////////////////////////////////////mobileAppInfo */
+
+ 
+ .mobileAppInfo{
+    background-color: #f75900;
+    background-image: url("../images/Background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+ }
+
+ .featuresWrapper{
+     justify-content: center;
+      
+     
+     border-radius: 15px;
+     gap: 0px;
+       border-radius: 50%;
+     margin-bottom: 80px;
+ }
+
+ .featureDiv{
+    padding: 20px;
+    margin-top: 130px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+       gap: 30px ;
+}
+.featureDiv img{
+    width: 136px;
+height: 136px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.featureDiv h5{
+ font-family: Source Sans Pro;
+font-size: 30px;
+font-weight: 700;
+line-height: 42px;
+ margin: auto;
+ color: rgba(251, 60, 0, 1);
+ text-align: left;
+}
+.phoneInfoWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.AppInstallInfoDiv{
+    
+gap: 16px;
+opacity: 0px;
+ margin-top: 200px;
+gap: 100px;
+}
+
+.AppInstallInfoDiv h2{
+    
+ font-family: Source Sans Pro;
+font-size: 68px;
+font-weight: 700;
+line-height: 72.08px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 138, 0, 1);
+margin-bottom: 16px;
+}
+
+
+.AppInstallInfoDiv p{
+ font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 40px;
+}
+.phoneInfoLeftside img{
+    opacity: 1;
+    width: 602.81px;
+ 
+ /* height: 590px; */
+gap: 0px;
+opacity: 0px;
+
+}
+.phoneInfoSideside{
+ }
+.GooglePlayWrapper{
+    display: flex;
+    gap: 10px;
+}
+ .GooglePlayDiv{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+ }
+ .GooglePlayDiv img{
+     padding: 10px;
+ }
+
+
+
+ /* //////////////////////////footer////////////////////// */
+
+
+ .footLink{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.processToOrder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 91px;
+  margin-bottom: 75px;
+}
+.orderProcess{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.processToOrderSection{
+  background-image: url("../image/Image\ \(4\).png");
+}
+.footerSection{
+  background-color: rgba(33, 33, 33, 1);
+}
+
+.footLink a{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: white;
+  text-decoration: none;
+  }
+  .firstSectionlinkHeader{
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.4px;
+  color: white;
+  margin-bottom: 40px;
+  }
+  .footContact{
+      display: flex;
+      gap: 16px;
+      margin-bottom: 43px;
+  }
+  .footparagraph p{
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.2px;
+  color: white;
+  margin-bottom: 40px;
+  }
+
+
+  .subscribebtn{
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+ }
+ .footerMainSection{
+     padding-top: 63px;
+     padding-bottom: 63px;
+     border-bottom: 1px solid rgb(102, 95, 95);
+ }
+@media (max-width: 767px) {
+  .homeBannerSection img {
+    display: none;
+  }
+  .homeBannertabs {
+    width: 100%;
+  }
+  .homeDiv{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .mobileAppInfo{
+     
+    height: 120vh;
+ }
+
+ .homeBannerSection {
+  background-image: url("../images/Group\ 1\ 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh
+}
+
+/* .homeSectionHeadingLeftSide{
+    text-align: center;
+} */
+
+}
