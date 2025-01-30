@@ -1,0 +1,106 @@
+/* sportbook */
+@import url("./color.css");
+@import url("./font.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sportBookWrapperDiv {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.sportBookDivHeading p {
+  font-family: var(--primary-font-bold);
+  color:var(--secondary-black);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: center;
+  margin-bottom: 16px;
+}
+.sportNewsCardDiv {
+  /* margin-left: 15px;
+    margin-right: 15px; */
+  border: 1px solid #dae4e9;
+
+  margin-bottom: 24px;
+  padding: 16px;
+}
+.sportNewsCardHeading {
+  margin-bottom: 32px;
+}
+.sportNewsCardHeading h4 {
+  font-family: var(--primary-font-SemiBold);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 16px;
+  color: var(--primary-blue);
+  display: flex;
+  align-items: center; /* Aligns text and image vertically */
+}
+.sportNewsCardHeading h4 img {
+  vertical-align: middle;
+  margin-left: 9.5px;
+  }
+
+.sportNewsCardHeading p {
+  font-family: var(--primary-font);
+  color: var(--secondary-black);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  /* margin-left: 15px;
+margin-right: 15px;    */
+}
+
+ 
+
+.sportBookRatingDiv {
+  display: flex;
+  gap: 12px;
+}
+.sportBookRatingStarDIv li {
+  display: flex;
+}
+
+.sportBookRatingPara h3 {
+  font-family: var(--primary-font-bold);
+  color: var(--secondary-black);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 8px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.sportBookViewMoreDiv p {
+  font-family: var(--primary-font);
+  color: var(--primary-blue);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 20px;
+}
+
+.sportBookName {
+  width: 280px;
+}

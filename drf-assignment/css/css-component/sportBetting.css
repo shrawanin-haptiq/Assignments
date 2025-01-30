@@ -1,0 +1,93 @@
+@import url("./color.css");
+@import url("./font.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sportBettingWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #094488;
+  padding: 16px 12px;
+  color: white;
+  border-radius: 8px;
+  gap: 12px;
+
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+}
+.sportBettingSelectWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.goToSportBookPage select {
+  width: 319px;
+  padding: 8px 14px 8px 14px;
+  gap: 16px;
+  border-radius: 8px;
+  color: var(--primary-grey-scale);
+  font-family: var(--primary-grey-scale);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  max-height: 150px; /* Set the maximum height for the select element */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.sportBettingHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sportBettingHeading h2 {
+  font-family: var(--primary-font);
+  color: var(--primary-grey);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+
+  gap: 8px;
+}
+.sportBettingHeading p {
+  font-family: var(--primary-font-SemiBold);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--primary-grey);
+}
+
+.goToSportBookPage h2 {
+  font-family: var( --primary-font-SemiBold);
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--primary-grey);
+}
+
+.goToSportBookPage option {
+  height: 295px;
+  top: -1348px;
+  left: -864px;
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px;
+  opacity: 0px;
+  background-color: var(--primary-grey);
+  padding: 10px 14px;
+  gap: 8px;
+  opacity: 0px;
+}

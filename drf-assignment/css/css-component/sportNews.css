@@ -1,0 +1,106 @@
+/* @import url("./color.css"); */
+@import url("./font.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sportNewsdivWrapperMain {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 20px;
+}
+
+.sportNewsdiv {
+  /* border:  0px 0
+    px black; */
+  margin-bottom: 12px;
+  
+
+}
+.sportNewsCardDiv{
+  box-shadow: 2px 2px 50px 0px #8596C340;
+
+}
+.sportNewswrapperHeading {
+  background: linear-gradient(134.42deg, #004fa1 16.18%, #17315b 100%);
+  margin-bottom: 12px;
+}
+
+.sportNewswrapperHeading h2 {
+  font-family: var(--primary-font-bold);
+  color: var(--primary-white);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.sportNewsHeadingdiv p{
+ font-family: var(--primary-font);
+ color: var(--primary-black);
+font-size: 15px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.sportNewsWrapperSecondDiv {
+  gap: 7px;
+  display: flex;
+}
+.sportNewsDivImg img {
+  width: 100%;
+  
+}
+.sportNewsImageName p{
+  font-family: var(--primary-font);
+
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.sportNewsDivSecondHeading h3 {
+  font-family: var(--primary-font-bold);
+  color: var( --secondary-black);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.sportNewsViewMorePara p {
+  font-family: var(--primary-font);
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  text-align: center;
+  margin-bottom: 12px;
+  gap: 0px;
+  opacity: 0px;
+ color: var(--primary-blue);
+}
+
+
+ 
