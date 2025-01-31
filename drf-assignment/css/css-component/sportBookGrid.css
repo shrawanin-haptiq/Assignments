@@ -7,6 +7,7 @@
 }
 .sportBookReviewGridWrapperDiv {
   box-shadow: 2px 2px 50px 0px #8596c342;
+   
 }
 .sportBookReviewGridHeading {
   background: linear-gradient(134.42deg, #004fa1 16.18%, #17315b 100%);
@@ -162,6 +163,7 @@
   display: flex;
   flex-direction: column;
   gap: 0px;
+  border-bottom: 1px solid #EAECF0
 }
 .sportBookGridWrapperSecondDiv {
   padding: 12px 16px 12px 16px;
