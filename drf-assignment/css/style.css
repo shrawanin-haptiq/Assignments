@@ -76,6 +76,10 @@ span {
 }
  
 
+.sportBookRatingStarDIv li {
+  gap: 2px;
+}
+
 @media (min-width: 1200px) {
   body {
     font-size: 17px;
