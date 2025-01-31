@@ -74,17 +74,7 @@ span {
   margin-bottom: 12px;
   background-color: #dae4e9;
 }
-
-@media (min-width: 768px) {
-  body {
-    font-size: 16px;
-    font-size: 15px;
-  }
-  .sportBettingSelectWrapper {
-    display: flex;
-    flex-direction: row;
-  }
-}
+ 
 
 @media (min-width: 1200px) {
   body {
@@ -265,6 +255,14 @@ span {
     width: 100%; /* Full width */
   }
 
+  body {
+    font-size: 16px;
+    font-size: 15px;
+  }
+  .sportBettingSelectWrapper {
+    display: flex;
+    flex-direction: row;
+  }
   
 }
 
