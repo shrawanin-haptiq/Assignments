@@ -12,7 +12,7 @@
 }
 .sportBookDivHeading p {
   font-family: var(--primary-font-bold);
-  color:var(--secondary-black);
+  color: var(--secondary-black);
   font-size: 19px;
   font-weight: 700;
   line-height: 24px;
@@ -53,7 +53,7 @@
 .sportNewsCardHeading h4 img {
   vertical-align: middle;
   margin-left: 9.5px;
-  }
+}
 
 .sportNewsCardHeading p {
   font-family: var(--primary-font);
@@ -67,8 +67,6 @@
   /* margin-left: 15px;
 margin-right: 15px;    */
 }
-
- 
 
 .sportBookRatingDiv {
   display: flex;
@@ -103,4 +101,71 @@ margin-right: 15px;    */
 
 .sportBookName {
   width: 280px;
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 17px;
+  }
+  .container {
+    max-width: 1349px;
+    margin: 0 auto;
+  }
+
+  .goToSportBookPage select {
+    width: 240px;
+  }
+
+  .sportBookDivOffersdiv {
+    display: flex;
+    gap: 24px;
+  }
+  .sportBookdivs {
+    display: flex;
+    flex-direction: row;
+
+    padding: 16px 24px;
+    gap: 32px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+  }
+
+  .sportBookReviewCardWrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .sportBookReviewCardGridDiv {
+    display: none;
+  }
+  .sportBookGridStarsDivWrapper {
+    display: flex;
+  }
+
+  .sportBookReviewCardWrapper h2 {
+    width: 342px;
+    /* height: Fixed (44px)px; */
+    padding: 12px 16px 12px 16px;
+    gap: 12px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+  }
+
+  .sportBookWrappingDivforFirst {
+    display: flex;
+  }
+}
+
+/* Tablet: Two cards per row */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .sportBookOfferDiv {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .sportBookDivOffersdiv {
+    width: 50%;
+  }
+  .sportBookWrappingDivforFirst {
+    display: flex;
+  }
 }

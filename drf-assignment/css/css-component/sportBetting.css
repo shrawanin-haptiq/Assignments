@@ -91,3 +91,47 @@
   gap: 8px;
   opacity: 0px;
 }
+
+
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 17px;
+  }
+  .container {
+    max-width: 1349px;
+    margin: 0 auto;
+  }
+  .sportBettingWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 115px;
+  }
+  .goToSportBookPage select {
+    width: 240px;
+  }
+    
+ 
+    
+ 
+
+   
+}
+
+/* Tablet: Two cards per row */
+@media (min-width: 601px) and (max-width: 1024px) { 
+    
+  
+  
+
+  body {
+    font-size: 16px;
+    font-size: 15px;
+  }
+  .sportBettingSelectWrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  
+}
+

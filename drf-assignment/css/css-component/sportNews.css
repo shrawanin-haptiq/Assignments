@@ -16,12 +16,9 @@
   /* border:  0px 0
     px black; */
   margin-bottom: 12px;
-  
-
 }
-.sportNewsCardDiv{
-  box-shadow: 2px 2px 50px 0px #8596C340;
-
+.sportNewsCardDiv {
+  box-shadow: 2px 2px 50px 0px #8596c340;
 }
 .sportNewswrapperHeading {
   background: linear-gradient(134.42deg, #004fa1 16.18%, #17315b 100%);
@@ -45,16 +42,15 @@
   padding-bottom: 6px;
 }
 
-.sportNewsHeadingdiv p{
- font-family: var(--primary-font);
- color: var(--primary-black);
-font-size: 15px;
-font-weight: 700;
-line-height: 20px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+.sportNewsHeadingdiv p {
+  font-family: var(--primary-font);
+  color: var(--primary-black);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .sportNewsWrapperSecondDiv {
   gap: 7px;
@@ -62,23 +58,20 @@ text-decoration-skip-ink: none;
 }
 .sportNewsDivImg img {
   width: 100%;
-  
 }
-.sportNewsImageName p{
+.sportNewsImageName p {
   font-family: var(--primary-font);
 
-font-size: 12px;
-font-weight: 400;
-line-height: 16px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
-
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .sportNewsDivSecondHeading h3 {
   font-family: var(--primary-font-bold);
-  color: var( --secondary-black);
+  color: var(--secondary-black);
   font-size: 15px;
   font-weight: 700;
   line-height: 20px;
@@ -88,19 +81,117 @@ text-decoration-skip-ink: none;
 }
 .sportNewsViewMorePara p {
   font-family: var(--primary-font);
-font-size: 12px;
-font-weight: 400;
-line-height: 16px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 
   text-align: center;
   margin-bottom: 12px;
   gap: 0px;
   opacity: 0px;
- color: var(--primary-blue);
+  color: var(--primary-blue);
 }
 
+@media (min-width: 1200px) {
+  body {
+    font-size: 17px;
+  }
+  .container {
+    max-width: 1349px;
+    margin: 0 auto;
+  }
 
- 
+  .sportNewsdivWrapperMain {
+    display: flex;
+    flex-direction: row;
+  }
+  .sportNewsCardDivs {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sportNewsDivImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+
+  .sportNewsThirdDiv h3 {
+    /* display: none; */
+    margin-bottom: 8px;
+  }
+  .sportNewsdiv {
+    width: 50%;
+  }
+
+  .sportNewsdivWrapperMain {
+    gap: 30px;
+  }
+  .sportNewsWrapperSecondDiv {
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .sportNewsDivSecondHeading h3 {
+    margin-bottom: 35px;
+  }
+
+  .sportNewsCardDivs {
+    gap: 24px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .sportNewsWrapperSecondDivMain {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+
+    gap: 0; /* Remove extra spacing */
+    padding: 0; /* Ensure no extra padding */
+    justify-content: flex-start;
+  }
+  .sportNewsDivImg img {
+    width: 100%;
+  }
+}
+
+/* Tablet: Two cards per row */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .sportNewsCardDivs {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
+
+  .sportNewsCardDivs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    justify-content: center;
+  }
+
+  .sportNewsCardDiv {
+    width: calc(50% - 16px); /* 50% width for two cards per row */
+  }
+
+  .sportNewsdivWrapperMain {
+    display: flex;
+    gap: 12px;
+  }
+
+  .sportNewsdiv {
+    width: 100%;
+    gap: 12px;
+  }
+
+  .sportNewsWrapperSecondDiv {
+    width: 100%; /* Full width to align in column */
+    display: flex;
+  }
+
+  .sportNewsThirdDiv {
+    width: 100%; /* Full width */
+  }
+}
