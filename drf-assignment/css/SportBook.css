@@ -1,0 +1,259 @@
+/* sportbook */
+@import url("./color.css");
+@import url("./font.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sportBookWrapperDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+.sportBookDivHeading p {
+  font-family: var(--primary-font-bold);
+  color: var(--secondary-black);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.sportNewsCard {
+  border: 1px solid #dae4e9;
+  box-shadow: 2px 2px 50px 0px #8596C340;
+
+  margin-bottom: 24px;
+  padding: 16px;
+}
+.sportNewsCardHeading {
+  margin-bottom: 32px;
+  border-bottom: 1px solid #dae4e9;
+}
+.sportNewsCardHeading h4 {
+  font-family: var(--primary-font-semibold);
+  color: var(--primary-blue);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 16px;
+  color: var(--primary-blue);
+  display: flex;
+  align-items: center;
+}
+.sportNewsCardHeading h4 svg {
+  vertical-align: middle;
+  margin-left: 9.5px;
+}
+
+.sportNewsCardHeading p {
+  font-family: var(--primary-font-);
+  color: var(--secondary-black);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 32px;
+}
+
+.sportBookRatingWrapper {
+  display: flex;
+  gap: 12px;
+}
+.sportBookRatingStarDIv ul {
+  display: flex;
+  list-style: none;
+  gap: 4px;
+}
+.sportBookRatings {
+  margin-left: 8px;
+  font-family: var(--primary-font-);
+  color: var(--primary-grey-scale-2);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.sportBookRatingPara h3 {
+  font-family: var(--primary-font-bold);
+  color: var(--secondary-black);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 8px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.sportBookViewMore p {
+  font-family: var(--primary-font);
+  color: var(--primary-blue);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 20px;
+}
+
+/* media qury */
+@media (min-width: 768px) {
+  .dropdownToggle {
+    width: 240px;
+
+    padding: 8px 14px 8px 14px;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px;
+  }
+
+  .sportBookCard {
+    width: 50%;
+    width: 400px;
+    display: flex;
+    gap: 24px;
+  }
+  .sportBookCard {
+    width: 50%;
+  }
+  .sportBookWrappingDivforFirst {
+    display: flex;
+  }
+
+  .sportNewsCard {
+    width: calc(50% - 16px); /* 50% width for two cards per row */
+  }
+
+  .sportNewsdivWrapperMain {
+    display: flex;
+    gap: 12px;
+  }
+
+  .sportNews {
+    width: 100%;
+    gap: 12px;
+  }
+
+  .sportNewsWrapperSecond {
+    width: 100%;
+    display: flex;
+  }
+
+  .sportNewsThirdDiv {
+    width: 100%;
+  }
+
+  .sportNewsCardReviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .sportNewsCard {
+    width: calc(50% - 16px);
+  }
+  .sportBookWrapperDiv{
+    padding: 0px;
+  }
+  .sportBookWrappingDivforFirst {
+    display: flex;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1349px;
+    margin: auto;
+  }
+
+  .sportBookdivs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+
+    padding: 16px 24px;
+    gap: 32px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+  }
+
+  .sportBookCard {
+    width: 400px;
+    display: flex;
+    gap: 24px;
+  }
+
+  .sportBookdivs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 16px 24px;
+    gap: 32px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+  }
+  .sportNewsCard {
+    width: 100%; /* Takes full width of the container */
+    max-width: 1349px; /* Align with the .container width */
+    margin: 0 auto; /* Center align */
+    padding: 16px;
+    border: 1px solid #dae4e9;
+    box-shadow: 2px 2px 50px 0px #8596C340;
+  }
+  
+  .sportBookReviewCardWrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .sportBookReviewCardGridDiv {
+    display: none;
+  }
+  .sportBookGridStarsDivWrapper {
+    display: flex;
+  }
+  .sportBookWrapperDiv {
+   
+    padding: 0px;
+}
+  .sportBookReviewCardWrapper h2 {
+    width: 342px;
+
+    padding: 12px 16px 12px 16px;
+    gap: 12px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+  }
+   
+}
+
+
+@media (min-width: 1200px) {
+  .sportNewsCard {
+    width: 100%;  
+    gap: 24px;  
+  }
+
+  .sportNewsCardReviews {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between;  
+    gap: 16px; 
+  }
+}

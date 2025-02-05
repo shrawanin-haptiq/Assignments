@@ -1,0 +1,415 @@
+@import url("./color.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+
+.sportBookReviewGridHeading {
+  background: linear-gradient(134.42deg, #004fa1 16.18%, #17315b 100%);
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.sportBookReviewGridHeading h2 {
+  font-family: var(--primary-font-bold);
+  color: var(--primary-grey);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-left: 16px;
+}
+
+.sportBookReviewGridHeading {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.sportBookGridWrapper {
+  margin-bottom: 12px;
+}
+label{
+ 
+  white-space: nowrap;
+}
+ 
+ 
+
+ 
+.sportBookReviewGridHeading {
+  width: 100%;
+   
+  box-sizing: border-box;
+
+  
+padding: 10px 16px 10px 16px;
+gap: 10px;
+ 
+
+}
+.sportBookGridRating {
+  width:  62.46px;
+  display: flex;
+  gap: 100px;
+}
+ 
+.sportBookGridHeadingWrapper {
+  display: none;
+}
+
+.sportBookGridDataWrapper {
+  justify: space-between;
+}
+.sportBookGridHighLighter {
+  justify-content: space-between;
+}
+
+.sportBookRating h4 {
+  font-family: var(--primary-font-bold);
+  color: var(--primary-blue);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+label {
+  font-family: var(--primary-font);
+  color: var(--primary-grey-scale);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.sportBookHightLightHeading p {
+  font-family: var(--primary-font);
+  color: var(--primary-black);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.sportBookRating {
+  padding: 8px 16px;
+}
+
+.sportBookGridHighLighter {
+  gap: 24px;
+}
+
+.star ul {
+  display: flex;
+  list-style: none;
+  gap: 4px;
+}
+
+.sportBookGridHighLights {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  
+}
+.sportBookGridParent {
+  padding: 12px 16px 12px 16px;
+  gap: 8px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sportBookGridViewMore p {
+  margin-bottom: 12px;
+  font-family: var(--primary-font);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+@media (min-width: 768px) {
+  .sportBookGridHeading {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  label {
+    display: none;
+  }
+
+  .sportBookRating {
+    width: 280px;
+    padding: 4px;
+  }
+  .sportBookGridRating {
+    width: 194px;
+  }
+  .sportBookGridHeadingWrapper {
+    display: block;
+  }
+  .sportBookGridHeading {
+    border-bottom: 1px solid #eaecf0;
+  }
+  .sportBookGridParent {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+  }
+  .sportBookRating {
+    width: 159px;
+    padding: 12px 16px 12px 16px;
+    gap: 12px;
+    border: 0px 0px 1px 0px;
+  }
+  .sportBookGridRating {
+    width: 174px;
+    padding: 12px 16px 12px 16px;
+    gap: 12px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+  }
+  .sportBookGridHighLights {
+    width: 371px;
+    padding: 12px 16px 12px 16px;
+    gap: 12px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+  }
+  .sportBookGrid {
+    padding: 16px;
+
+    border-radius: 8px;
+  }
+  .sportBookGridWrapper {
+    border: 1px solid #eaecf0;
+
+    border-radius: 8px;
+  }
+
+  .sportBookGridHeadingWrapper {
+    display: block;
+  }
+
+  label {
+    display: none;
+  }
+  .sportBookReviewGridWrapper{
+    border: 1px solid #DAE4E9;
+    box-shadow: 2px 2px 50px 0px #8596C342;
+  
+  }
+
+
+
+  /* fonts */
+  .sportBookRating h5{
+    font-family: var(--primary-font);
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  .sportBookHightLightHeading p{
+    font-family: var(--primary-font);
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+ .sportBookHeading h5{
+
+  font-family: var(--primary-font);
+font-size: 16px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.ratingHeading h5{
+   
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.highLightsHeading h5{
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+ 
+.sportBookReviewGridHeading {
+  width: 100%;
+   
+  box-sizing: border-box;
+
+  
+padding: 10px 16px 10px 16px;
+gap: 10px;
+border-radius: 8px 8px 0px 0px  ;
+opacity: 0px;
+
+}}
+
+@media (min-width: 1200px) {
+  .sportBookGridHeading {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  label {
+    display: none;
+  }
+
+  .sportBookRating {
+    width: 342px;
+    padding: 4px;
+  }
+
+  .sportBookGridRating {
+    width: 194px;
+    text-align: left;
+  }
+  .sportBookGridHeadingWrapper {
+    display: block;
+  }
+  .sportBookGridHeading {
+    border-bottom: 1px solid #eaecf0;
+  }
+  .sportBookGridParent {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+  }
+  .sportBookGridHighLighter {
+    width: 701px;
+    margin-left: 35px
+  }
+
+  .sportBookGrid {
+    padding: 16px;
+
+    border-radius: 8px;
+  }
+
+  .sportBookRating {
+    padding: 12px 16px 12px 16px;
+    gap: 12px;
+    border: 0px 0px 1px 0px;
+  }
+  .sportBookGridRating {
+    padding: 12px 16px 12px 16px;
+    gap: 12px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+  }
+  .sportBookGridHighLights {
+    width: 700px  ;
+    padding: 12px 16px 12px 16px;
+    gap: 12px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+  }
+  .sportBookReviewGridWrapper{
+    border: 1px solid #DAE4E9;
+    box-shadow: 2px 2px 50px 0px #8596C342;
+  
+  }
+  .sportBookRating h5{
+    font-family: var(--primary-font);
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  .sportBookHightLightHeading p{
+    font-family: var(--primary-font);
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+ .sportBookHeading h5{
+
+  font-family: var(--primary-font);
+font-size: 16px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.ratingHeading h5{
+   
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.highLightsHeading h5{
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+ 
+.sportBookReviewGridHeading {
+  width: 100%;
+   
+  box-sizing: border-box;
+
+  
+padding: 10px 16px 10px 16px;
+gap: 10px;
+border-radius: 8px 8px 0px 0px  ;
+opacity: 0px;
+
+  
+}
+}

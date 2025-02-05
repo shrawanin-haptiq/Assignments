@@ -1,0 +1,29 @@
+:root {
+  --primary-font: 'TitilliumWeb-Regular';
+  --primary-font-bold: 'TitilliumWeb-bold';
+  --primary-font-semibold: 'TitilliumWeb-SemiBold';
+}
+@font-face {
+  font-family: 'TitilliumWeb-bold';
+  src: url('../fonts/titilliumweb-bold.woff2') format('woff2'),
+       url('../fonts/titilliumweb-bold.woff') format('woff');
+  font-style:normal;
+  font-display: swap;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'TitilliumWeb-Regular';
+  src: url('../fonts/titilliumWeb-Regular.woff2') format('woff2'),
+       url('../fonts/titilliumWeb-Regular.woff') format('woff');
+  font-style:normal;
+  font-display: swap;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'TitilliumWeb-SemiBold';
+  src: url('../fonts/titilliumWeb-SemiBold.woff2') format('woff2'),
+       url('../fonts/titilliumWeb-SemiBold.woff') format('woff');
+  font-style:normal;
+  font-display: swap;
+  font-weight: normal;
+}

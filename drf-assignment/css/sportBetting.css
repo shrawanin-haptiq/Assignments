@@ -1,0 +1,128 @@
+@import url("./color.css");
+@import url("./font.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sportBetting {
+  padding: 16px;
+}
+
+.sportBettingWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #094488;
+  padding: 16px 12px;
+  color: white;
+  border-radius: 8px;
+  gap: 12px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.sportBettingSelectWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+ 
+.sportBettingHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sportBettingHeading h2 {
+  font-family: var(--primary-font-bold);
+  color: var(--primary-grey);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  gap: 8px;
+}
+.sportBettingHeading p {
+  font-family: var(--primary-font-semibold);
+  color: var(--primary-grey);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+ 
+}
+
+.goToSportBookPage h2 {
+  font-family: var(--primary-font-semibold);
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--primary-grey);
+  margin-bottom: 8px;
+}
+ 
+
+.dropdownToggle {
+  justify-content: space-around;
+}
+
+/* media query */
+
+ @media (min-width: 768px) {
+   
+  .dropdownToggle {
+    width: 240px;
+
+    padding: 8px 14px 8px 14px;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px;
+  }
+  .sportBettingSelectWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .sportBetting{
+    padding: 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  
+  .container {
+    width: 1349px;
+    margin: auto;
+  }
+
+  .dropdownMenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .sportBettingSelectWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .sportBettingWrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sportBetting {
+    padding: 0px;
+  }
+  .dropdownToggle {
+    width: 100%;
+  }
+
+  
+   
+}

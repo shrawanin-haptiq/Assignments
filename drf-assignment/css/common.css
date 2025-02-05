@@ -1,0 +1,211 @@
+@import url("./font.css");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1349px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.customDropdown {
+  position: relative;
+}
+
+.dropdownToggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: white;
+  font-family: var(--primary-font);
+  color: var(--primary-grey-scale);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.dropdownMenu {
+  position: absolute;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #dae4e9;
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  color: black;
+}
+
+.dropdownMenu li {
+  font-family: var(--primary-font);
+  color: var(--secondary-black);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 10px 14px 10px 14px;
+  gap: 8px;
+}
+.goToSportBookPage h2 {
+  font-family: var(--primary-font-semibold);
+  color: var(--primary-grey);
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.dropdownToggle h4 {
+  font-family: var(--primary-font);
+  color: var(--primary-grey-scale);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.dropdownMenu::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dropdownMenu::-webkit-scrollbar-thumb {
+  background: #dae4e9;
+}
+
+.dropdownMenu::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.customDropdown.open {
+  position: relative;
+}
+
+.customDropdown.open::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: white;
+  z-index: 9;
+}
+
+.offersWrapperBtn {
+  display: flex;
+  flex-direction: column;
+}
+
+.sportNewswrapperHeading {
+  width: 100%;
+}
+.offersWrapperBtn button {
+  background-color: var(--primary-grey);
+  font-family: var(--primary-font-bold);
+  color: var(--primary-blue);
+  padding: 10px 51px;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #0066cc;
+  opacity: 0px;
+  margin-bottom: 12px;
+
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+#offersWrapperBtnPlayNowBtn {
+  background-color: var(--primary-blue);
+  color: var(--primary-grey);
+}
+
+.sportNewsDivSecondHeading span {
+  font-size: var(--primary-font-semibold);
+  color: var(--primary-blue);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+span {
+  font-size: var(--primary-font-semibold);
+  color: var(--primary-blue);
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.border {
+  width: 100%;
+  height: 1px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #dae4e9;
+}
+
+.sportBookRatingStarDIv li {
+  gap: 2px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+  .dropdownToggle {
+    padding: 8px 14px 8px 14px;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px;
+  }
+
+  .offersWrapperBtn {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    width: 100%;
+  }
+
+  /* .sportBookWrappingDivforFirst {
+    display: flex;
+  } */
+
+  .goToSportBookPage {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding: 32px;
+  }
+  .offersWrapperBtn {
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+  }
+}
