@@ -27,7 +27,7 @@
   flex-direction: column;
   gap: 12px;
 }
- 
+
 .sportBettingHeading {
   display: flex;
   flex-direction: column;
@@ -48,9 +48,6 @@
   font-weight: 600;
   line-height: 16px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
- 
 }
 
 .goToSportBookPage h2 {
@@ -59,17 +56,13 @@
   font-weight: 600;
   line-height: 24px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: var(--primary-grey);
   margin-bottom: 8px;
 }
- 
 
 .dropdownToggle {
   justify-content: space-around;
 }
-
 
 .customDropdown {
   position: relative;
@@ -108,22 +101,36 @@
   z-index: 10;
   color: black;
 }
- 
 
+.circle {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color:var(  --primary-black);
+
+  text-align: center;
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30.42px;
+  text-align: left;
+  background: radial-gradient(50% 50% at 50% 50%, #abd3ff 0%, #dcedff 100%);
+}
 
 /* media query */
 
- @media (min-width: 768px) {
+@media (min-width: 768px) {
   .dropdownToggle {
     padding: 8px 14px 8px 14px;
     gap: 16px;
     border-radius: 8px;
     border: 1px;
   }
-   
-  .dropdownToggle {
-   width: 100%;
 
+  .dropdownToggle {
     padding: 8px 14px 8px 14px;
     gap: 16px;
     border-radius: 8px;
@@ -133,15 +140,13 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    
   }
-  .sportBetting{
+  .sportBetting {
     padding: 0px;
   }
 }
 
 @media (min-width: 1200px) {
-  
   .container {
     width: 1349px;
     margin: auto;
@@ -169,7 +174,4 @@
   .dropdownToggle {
     width: 100%;
   }
-
-  
-   
 }

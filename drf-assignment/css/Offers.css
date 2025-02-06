@@ -19,14 +19,12 @@
   font-weight: 700;
   line-height: 24px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-
   margin-left: 16px;
   margin-bottom: 12px;
 }
 .sportBookCard h3 sub {
   display: block;
+  margin-top: 2px
 }
 .sportBookCardsWrapper{
   border-radius: 8px;
@@ -58,8 +56,7 @@
   font-weight: 400;
   line-height: 20px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  
 }
 
 .sportBookName p {
@@ -80,8 +77,7 @@
   font-weight: 600;
   line-height: 24px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  
 }
 
 .sportBookName sub {
@@ -91,8 +87,7 @@
   font-weight: 400;
   line-height: 20px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  
 }
 
 .offersWrapperBtn {
@@ -148,11 +143,11 @@
     font-weight: 700;
     line-height: 24px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    
   }
   .sportBookCard h3 sub {
     display: block;
+    margin-top: 2px
   }
 }
 
@@ -214,10 +209,7 @@
     line-height: 20px;
     text-align: center;
   }
-
-  .offerSectionBets {
-    width: 512px;
-  }
+ 
   .sportNewsCardReviews {
     gap: 24px;
     margin: 0px;
@@ -237,8 +229,7 @@
     font-weight: 700;
     line-height: 32px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+   
   }
   .sportBookCard h3 sub {
     display: inline;

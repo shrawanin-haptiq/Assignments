@@ -58,8 +58,6 @@
   font-weight: 400;
   line-height: 20px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   margin-bottom: 32px;
 }
 
@@ -80,8 +78,6 @@
   font-weight: 400;
   line-height: 16px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 
 
@@ -92,8 +88,6 @@
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 8px;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 
 .sportBookViewMore p {
@@ -103,8 +97,6 @@
   font-weight: 600;
   line-height: 20px;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   margin-bottom: 20px;
 }
 
@@ -133,7 +125,7 @@
   }
 
   .sportNewsCard {
-    width: calc(50% - 16px); /* 50% width for two cards per row */
+    width: calc(50% - 16px);
   }
 
   .sportNewsdivWrapperMain {
@@ -211,9 +203,9 @@
     opacity: 0px;
   }
   .sportNewsCard {
-    width: 100%; /* Takes full width of the container */
-    max-width: 1349px; /* Align with the .container width */
-    margin: 0 auto; /* Center align */
+    width: 100%;  
+    max-width: 1349px;  
+    margin: 0 auto;  
     padding: 16px;
     border: 1px solid #dae4e9;
     box-shadow: 2px 2px 50px 0px #8596C340;
@@ -241,11 +233,6 @@
     border: 0px 0px 1px 0px;
     opacity: 0px;
   }
-   
-}
-
-
-@media (min-width: 1200px) {
   .sportNewsCard {
     width: 100%;  
     gap: 24px;  
@@ -258,3 +245,5 @@
     gap: 16px; 
   }
 }
+
+ 

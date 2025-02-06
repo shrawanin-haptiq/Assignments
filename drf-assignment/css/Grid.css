@@ -7,8 +7,8 @@
 
 .sportBookReviewGridHeading {
   background: linear-gradient(134.42deg, #004fa1 16.18%, #17315b 100%);
-  padding-top: 6px;
-  padding-bottom: 6px;
+  
+  padding: 6px 0px 6px 24px;
 }
 .sportBookReviewGridHeading h2 {
   font-family: var(--primary-font-bold);
@@ -17,8 +17,6 @@
   font-weight: 700;
   line-height: 24px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 
 .sportBookReviewGridHeading {
@@ -35,9 +33,7 @@ label {
 
 .sportBookReviewGridHeading {
   width: 100%;
-
   box-sizing: border-box;
-
   padding-left: 24px;
   gap: 10px;
 }
@@ -51,10 +47,10 @@ label {
   display: none;
 }
 
-.sportBookGridDataWrapper {
-  justify: space-between;
-}
-.sportBookGridHighLighter {
+/* .sportBookGridDataWrapper {
+  /* justify: space-between; */
+/* } */
+*/ .sportBookGridHighLighter {
   justify-content: space-between;
 }
 
@@ -65,8 +61,6 @@ label {
   font-weight: 700;
   line-height: 16px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 label {
   font-family: var(--primary-font);
@@ -75,8 +69,6 @@ label {
   font-weight: 400;
   line-height: 16px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 .sportBookHightLightHeading p {
   font-family: var(--primary-font);
@@ -85,8 +77,6 @@ label {
   font-weight: 400;
   line-height: 16px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 .sportBookRating {
   padding: 8px 16px;
@@ -124,8 +114,6 @@ label {
   font-weight: 600;
   line-height: 16px;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 
 @media (min-width: 768px) {
@@ -171,7 +159,7 @@ label {
     opacity: 0px;
   }
   .sportBookGridHighLights {
-    width: 371px;
+    /* width: 371px; */
     padding: 12px 16px 12px 16px;
     gap: 12px;
     border: 0px 0px 1px 0px;
@@ -207,8 +195,6 @@ label {
     font-weight: 600;
     line-height: 20px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
   }
   .sportBookHightLightHeading p {
     font-family: var(--primary-font);
@@ -225,8 +211,6 @@ label {
     font-weight: 600;
     line-height: 18px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
   }
 
   .ratingHeading h5 {
@@ -235,8 +219,6 @@ label {
     font-weight: 600;
     line-height: 18px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
   }
 
   .highLightsHeading h5 {
@@ -245,8 +227,6 @@ label {
     font-weight: 600;
     line-height: 18px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
   }
 
   .sportBookReviewGridHeading {
@@ -330,8 +310,6 @@ label {
     font-weight: 600;
     line-height: 20px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
   }
   .sportBookHightLightHeading p {
     font-family: var(--primary-font);
@@ -339,8 +317,6 @@ label {
     font-weight: 400;
     line-height: 20px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
   }
   .sportBookHeading h5 {
     font-family: var(--primary-font);
@@ -348,8 +324,6 @@ label {
     font-weight: 600;
     line-height: 18px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
   }
 
   .ratingHeading h5 {
@@ -368,8 +342,6 @@ label {
     font-weight: 600;
     line-height: 18px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
   }
 
   .sportBookReviewGridHeading {
@@ -377,7 +349,7 @@ label {
 
     box-sizing: border-box;
 
-    padding: 10px 16px 10px 16px;
+    
     gap: 10px;
     border-radius: 8px 8px 0px 0px;
     opacity: 0px;

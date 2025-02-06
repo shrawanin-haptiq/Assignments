@@ -20,6 +20,8 @@ body {
 }
 
 .dropdownToggle {
+  font-family: var(--primary-font);
+  color: var(--primary-grey-scale);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -29,8 +31,6 @@ body {
   border: 1px solid #ccc;
   cursor: pointer;
   background: white;
-  font-family: var(--primary-font);
-  color: var(--primary-grey-scale);
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -60,8 +60,6 @@ body {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   padding: 10px 14px 10px 14px;
   gap: 8px;
 }
@@ -72,8 +70,6 @@ body {
   font-weight: 600;
   line-height: 24px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 .dropdownToggle h4 {
   font-family: var(--primary-font);
@@ -82,8 +78,6 @@ body {
   font-weight: 400;
   line-height: 20px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 .dropdownMenu::-webkit-scrollbar {
   width: 8px;
@@ -117,7 +111,6 @@ body {
   flex-direction: column;
 }
 
- 
 .offersWrapperBtn button {
   background-color: var(--primary-grey);
   font-family: var(--primary-font-bold);
@@ -139,7 +132,7 @@ body {
   color: var(--primary-grey);
 }
 
-.sportNewsSecondHeading span{
+.sportNewsSecondHeading span {
   font-size: var(--primary-font-semibold);
   color: var(--primary-blue);
   font-size: 12px;
@@ -153,25 +146,24 @@ body {
 span {
   font-size: var(--primary-font-semibold);
   color: var(--primary-blue);
-
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
- 
 
 .sportBookRatingStar li {
   gap: 2px;
 }
+
+
 
 @media (min-width: 768px) {
   .container {
     padding: 16px;
   }
   .dropdownToggle {
+    width: 240px;
     padding: 8px 14px 8px 14px;
     gap: 16px;
     border-radius: 8px;
@@ -181,14 +173,12 @@ span {
   .offersWrapperBtn {
     display: flex;
     flex-direction: row;
-gap: 12px;
+    gap: 12px;
     width: 100%;
   }
 
-   
-
   .goToSportBookPage {
-    width: 100%;
+    /* width: 100%; */
   }
 }
 
@@ -202,5 +192,13 @@ gap: 12px;
     width: 176px;
     gap: 0px;
   }
+  .offersWrapperBtn button {
+    width: 176px;
+    height: 40px;
 
+    padding: 10px 51px 10px 51px;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px 0px 0px 0px;
+  }
 }
