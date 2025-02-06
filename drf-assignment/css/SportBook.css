@@ -85,7 +85,7 @@
 }
 
 
-.sportBookRatingPara h3 {
+.sport h3 {
   font-family: var(--primary-font-bold);
   color: var(--secondary-black);
   font-size: 17px;
@@ -128,7 +128,7 @@
   .sportBookCard {
     width: 50%;
   }
-  .sportBookWrappingDivforFirst {
+  .sportBookWrappingforFirst {
     display: flex;
   }
 
@@ -151,7 +151,7 @@
     display: flex;
   }
 
-  .sportNewsThirdDiv {
+  .sportNewsThirdWrapper{
     width: 100%;
   }
 

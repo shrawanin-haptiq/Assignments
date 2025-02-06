@@ -124,11 +124,11 @@ margin-bottom: 16px;
 .sportNewsSecondHeading h3{
   margin-bottom: 30px;
 }
-.sportNewsThirdDiv {
+.sportNewsThirdWrapper{
   border-bottom: 1px solid #dae4e9;
 
 }
-.sportNewsThirdDiv h3{
+.sportNewsThirdWrapper h3{
  font-family: var(--primary-font-bold);
  color: var(--secondary-black);
 font-size: 15px;
@@ -139,7 +139,8 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 margin-bottom: 6px;
 }
-.sportNewsThirdDiv p {
+ 
+.sportNewsThirdWrapper p{
   font-family: var(--primary-font);
   color: var(--secondary-black);
 font-size: 12px;
@@ -187,7 +188,7 @@ text-decoration-skip-ink: none;
     display: flex;
   }
 
-  .sportNewsThirdDiv {
+  .sportNewsThirdWrapper{
     width: 100%;
   }
 
@@ -248,7 +249,7 @@ border-radius: 8px 8px 0px 0px;
     border-radius: 8px;
   }
 
-  .sportNewsThirdDiv h3 {
+  .sportNewsThirdWrapper h3{
     /* display: none; */
     margin-bottom: 8px;
   }
